@@ -1,3 +1,3 @@
-# DON'T STOP
+# CANT'T STOP
 
-A super awesome game written in C++
+A game written in C++
