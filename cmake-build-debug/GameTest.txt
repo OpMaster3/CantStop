@@ -1,0 +1,86 @@
+
+------ Starting Game Test  - Godburn & Aravind ------
+
+Test 1: Testing Dice Construction and Rolling
+Dice Rolls: 2 5 3 6
+
+Test 2: Verifying Player Construction
+Player: arjun (orange) Score: 0
+
+Test 3: Testing Board Operations
+Starting turn for player
+Move to column 3: Success
+Move to column 8: Success
+Board state after moves:
+==== BOARD STATUS ====
+2	Available	  -----  -----  -----
+3	Available	  T----    -----  -----  -----  -----
+4	Available	  -----  -----  -----  -----  -----  -----  -----
+5	Available	  -----  -----  -----  -----  -----  -----  -----  -----  -----
+6	Available	  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----
+7	Available	  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----
+8	Available	  T----    -----  -----  -----  -----  -----  -----  -----  -----  -----  -----
+9	Available	  -----  -----  -----  -----  -----  -----  -----  -----  -----
+10	Available	  -----  -----  -----  -----  -----  -----  -----
+11	Available	  -----  -----  -----  -----  -----
+12	Available	  -----  -----  -----
+==== ACTIVE TOWERS: 2 ====
+Tower 1 in column 3
+Tower 2 in column 8
+====================
+
+Stopping turn:
+Board after stop:
+==== BOARD STATUS ====
+2	Available	  -----  -----  -----
+3	Available	  -O---    -----  -----  -----  -----
+4	Available	  -----  -----  -----  -----  -----  -----  -----
+5	Available	  -----  -----  -----  -----  -----  -----  -----  -----  -----
+6	Available	  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----
+7	Available	  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----
+8	Available	  -O---    -----  -----  -----  -----  -----  -----  -----  -----  -----  -----
+9	Available	  -----  -----  -----  -----  -----  -----  -----  -----  -----
+10	Available	  -----  -----  -----  -----  -----  -----  -----
+11	Available	  -----  -----  -----  -----  -----
+12	Available	  -----  -----  -----
+==== ACTIVE TOWERS: 2 ====
+Tower 1 in column 3
+Tower 2 in column 8
+====================
+
+Starting new turn and testing bust:
+Board before bust:
+==== BOARD STATUS ====
+2	Available	  -----  -----  -----
+3	Available	  -O---    -----  -----  -----  -----
+4	Available	  -----  -----  -----  -----  -----  -----  -----
+5	Available	  T----    -----  -----  -----  -----  -----  -----  -----  -----
+6	Available	  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----
+7	Available	  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----
+8	Available	  -O---    -----  -----  -----  -----  -----  -----  -----  -----  -----  -----
+9	Available	  -----  -----  -----  -----  -----  -----  -----  -----  -----
+10	Available	  -----  -----  -----  -----  -----  -----  -----
+11	Available	  -----  -----  -----  -----  -----
+12	Available	  -----  -----  -----
+==== ACTIVE TOWERS: 1 ====
+Tower 1 in column 5
+====================
+
+Board after bust:
+==== BOARD STATUS ====
+2	Available	  -----  -----  -----
+3	Available	  -O---    -----  -----  -----  -----
+4	Available	  -----  -----  -----  -----  -----  -----  -----
+5	Available	  T----    -----  -----  -----  -----  -----  -----  -----  -----
+6	Available	  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----
+7	Available	  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----
+8	Available	  -O---    -----  -----  -----  -----  -----  -----  -----  -----  -----  -----
+9	Available	  -----  -----  -----  -----  -----  -----  -----  -----  -----
+10	Available	  -----  -----  -----  -----  -----  -----  -----
+11	Available	  -----  -----  -----  -----  -----
+12	Available	  -----  -----  -----
+==== ACTIVE TOWERS: 0 ====
+====================
+
+
+--------- End Game Test ---------

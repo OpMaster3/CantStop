@@ -1,0 +1,13 @@
+---------- Starting Unit Player Test - Godburn & Aravind ----------
+Initial state:
+RedWolf (blue  ) Score: 0
+RubyMan (green ) Score: 0
+
+Winning columns:
+RedWolf (blue  ) Score: 1 Columns: 3
+RedWolf (blue  ) Score: 3 Columns: 3 1 4 (should have won)
+
+Player colors:
+Wolf Color: 	blue  
+Ruby Color: 	green 
+---------- End Unit Player Test ----------
